@@ -1,0 +1,58 @@
+	<li><A HREF="StatusController?action=summary">HOME</A>
+		<ul id="sub1">
+			<li><A HREF="StatusController?action=summary">SUMMARY</A></li>
+		</ul>
+	</li>
+	<li><A HREF="StatusController?action=sourceStatus">SOURCING</A>
+		<ul id="sub1">
+			<li><A HREF="StatusController?action=sourceStatus">DATA FEEDS</A></li>
+			<li><A HREF="StatusController?action=attunityStatus">ATTUNITY</A></li>
+			<li><A HREF="StatusController?action=schemaRegistry">SCHEMA REGISTRY</A></li>
+		</ul>
+	</li>
+<!--	<li><A HREF="etl_clover_status.jsp">CloverETL</A>
+		<ul id="sub1">
+			<li><A HREF="etl_clover_status.jsp">Clover Monitor</A></li>
+			<li><A href ="#" target="popup" onClick="javascript:window.open('etl_clover_ctl.jsp','Clover Engine','width=600,height=400,scrollbars=yes');return false;">Clover Engine</A></li>
+		</ul>
+	</li>
+-->
+	<li><A HREF="StatusController?action=lakeStatus">LAKE</A>
+		<ul id="sub1">
+			<li><A HREF="StatusController?action=lakeStatus">PUBLISHING</A></li>
+			<li><A href ="#" target="popup" onClick="javascript:window.open('StatusController?action=lakeEngine','Lake Engine','width=600,height=400,scrollbars=yes');return false;">PUBLISHING ENGINE</A></li>
+			<li><A HREF="StatusController?action=kafkaStatus">KAFKA TOPICS</A></li>
+			<li><A HREF="StatusController?action=kafkaConsumer">KAFKA CONSUMERS</A></li>
+			<li><A href ="#" target="popup"  onClick="javascript:window.open('http://10.46.48.31:3000/dashboard/db/kafka-cluster-operations','Kafka Cluster Monitor','width=1200,height=600,scrollbars=yes');return false;">KAFKA CLUSTER</A></li>
+			<li><A HREF="StatusController?action=azureStatus">AZURE STORAGE</A></li>
+		</ul>
+	</li>
+	<li><A HREF="StatusController?action=kafkaStatus">ANALYTICS</A>
+		<ul id="sub1">
+<!-- 		<li><A HREF="StatusController?action=kafkaStatus">Kafka Monitor</A></li>
+			<li><A href ="#" target="popup" onClick="return clover('http://10.119.22.209:8080/clover/launch/Recover_DW_Loads');">DW Recover</A></li>
+			<li><A href ="#" target="popup" onClick="return clover('http://10.119.22.209:8080/clover/launch/ADP_DW_Validate');">DW Validate</A></li>
+			<li><A href ="#" target="popup" onClick="return clover('http://10.119.22.209:8080/clover/launch/ADP_ODS_Validate');">ODS Validate</A></li>
+ -->
+		</ul>
+	</li>
+
+	<li><A HREF="#">PLATFORM</A>
+		<ul id="sub1">
+			<li><A href ="#" target="popup"  onClick="javascript:window.open('http://10.46.48.31:3000/dashboard/db/system-metrics?var-datasource=default&var-server=cloveretl-c01-prod-vm&var-inter=%24__auto_interval','Systems Monitor','width=1200,height=600,scrollbars=yes');return false;">SYSTEM METRICS</A></li>
+			<li><A href ="#" target="popup"  onClick="javascript:window.open('http://10.46.48.31:3000/dashboard/db/jvm-metrics?var-JVM=cloveretl-c02-prod-vm','Systems Monitor','width=1200,height=600,scrollbars=yes');return false;">JVM METRICS</A></li>
+			<li><A href ="#" target="popup"  onClick="javascript:window.open('https://app.smartsheet.com/b/publish?EQBCT=8082bd5403c84474be17c2104a23239a','Runbook','width=1200,height=600,scrollbars=yes');return false;">RUN BOOK</A></li>
+			<li><A href ="#" target="popup"  onClick="javascript:window.open('http://10.45.46.7:8080/','Kafka Manager','width=1200,height=600,scrollbars=yes');return false;">KAFKA MANAGER</A></li>
+			<li><A href ="#" target="popup"  onClick="javascript:window.open('http://10.46.48.23/clover','CloverETL Console','width=1200,height=600,scrollbars=yes');return false;">CLOVERETL</A></li>
+			<li><A href ="#" target="popup"  onClick="javascript:window.open('http://10.46.48.31:3000/login','Grafana Dashboard','width=1200,height=600,scrollbars=yes');return false;">GRAFANA</A></li>
+		</ul>
+	</li>
+
+	<li><A HREF="#">RESOURCES</A>
+		<ul id="sub1">
+			<li><A href ="#" target="popup"  onClick="javascript:window.open('https://vigdev.atlassian.net/','VIG JIRA','width=1200,height=600,scrollbars=yes');return false;">JIRA</A></li>
+<!--			<li><A href ="#" target="popup"  onClick="javascript:window.open('https://bitbucket.org/','Git','width=1200,height=600,scrollbars=yes');return false;">BIT BUCKET</A></li>  -->
+<!--		<li><A href ="#" target="popup"  onClick="javascript:window.open('https://app.smartsheet.com','Smartsheet','width=1200,height=600,scrollbars=yes');return false;">SMARTSHEET</A></li>  -->
+			<li><A href ="#" target="popup"  onClick="javascript:window.open('https://portal.azure.com','Azure Portal','width=1200,height=600,scrollbars=yes');return false;">AZURE PORTAL</A></li>
+		</ul>
+	</li>

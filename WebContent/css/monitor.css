@@ -1,0 +1,53 @@
+TR{font-size:9pt;font-family:arial;color:#FFF;}
+TD{font-size:9pt;font-family:arial;color:#033;font-weight:500;}
+.pageheader{font-family:arial;color:#324E7D;font-size:28px;font-weight:500;text-indent:600px;text-align:center;}
+.disheader{width:200px;display:inline;font-family:arial;color:#FFF;font-size:10pt;font-weight:700;border-radius:4px 4px 4px 4px;text-align:center;margin:0;padding:2px;}
+.form_round{display:inline-block;background-color:#808080;border-radius:20px;-moz-border-radius:15px;-webkit-border-radius:15px;margin:0 auto 20px;padding:10px;}
+a{text-decoration:none;}
+a.innerLink{font-size:10pt;font-family:arial;color:#25383C;text-decoration:underline;font-weight:700;}
+a:link,a:visited{color:#FFF;}
+a:hover,a.innerLink:hover{color:red;}
+a:active,a.innerLink:active{color:#0F0;}
+a.innerLink:link,a.innerLink:visited{color:#545456;}
+.server{font-family:arial;color:#033;font-size:9pt;font-weight:600;}
+.header{font-family:arial;color:#033;font-size:9pt;font-weight:600;width:200px;background:#F0FFF0;vertical-align:text-top;}
+.summaryheader{font-family:arial;color:#033;font-size:10pt;font-weight:600;width:200px;background:#ececec;}
+.statusheader{font-family:arial;color:#033;font-size:10pt;font-weight:600;width:400px;background:#F0FFF0;vertical-align:text-top;}
+.health,a.server,a.process{font-size:9pt;font-family:arial;color:#25383C;font-weight:600;}
+.tab:not(:target) { display: none !important; }
+a.task{font-size:9pt;font-family:arial;color:#ffffff;font-weight:600;}
+a.profileLink{font-size:9pt;font-family:arial;color:#25383C;text-decoration:none;}
+ul#menu{padding-left:0;list-style:none;margin:0;}
+ul#menu li{position:relative;list-style-type:none;float:left;margin:0;padding:0;z-index: 10;}
+ul#menu li > ul{display:none;}
+ul#sub1{position:absolute;display:none;margin:0;padding:0;}
+ul#menu li a{width:150px;display:inline-block;background-color:#CCE6EE;text-align:center;font-family:arial;color:#132449;font-size:10pt;font-weight:700;border-radius:0 0 0 0;margin:1px;padding:5px;}
+ul#menu li a:hover{width:150px;display:inline-block;background-color:#0081AC;text-align:center;font-family:arial;color:#FFF;font-size:10pt;font-weight:700;border-radius:0 0 0 0;margin:1px;padding:5px;}
+ul#menu li a:current{background-color:#C89103;}
+ul#menu li:hover > ul,ul#menu li:hover #sub1{display:block;}
+body {padding:0;margin:0 auto;width: 100%; background:url(../img/main-bg-tile.png) repeat left top;}
+.container{margin:0px auto;width: 1600px;}
+.led-box {
+  height: 15px;
+  width: 15%;
+  margin: 8px 0;
+  float: center;
+}
+.led-green {
+  font-size:9pt;font-family:arial;font-weight:600;
+  margin: 0 auto;
+  width: 15px;
+  height: 15px;
+  background-color: #ABFF00;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #89FF00 0 2px 12px;
+}
+.led-red {
+  font-size:9pt;font-family:arial;font-weight:600;
+  margin: 0 auto;
+  width: 15px;
+  height: 15px;
+  background-color: #F00;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 12px;
+}
